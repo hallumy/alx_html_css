@@ -15,3 +15,7 @@ aside {
     flex: 1;
     overflow-y: auto;
 }
+.works_on_smartphone {
+  max-width: 100%;
+  width: auto;
+}
