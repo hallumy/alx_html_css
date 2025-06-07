@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #7071E8;
 }
 main {
     display: flex;
@@ -10,10 +11,15 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: #C683D7;
+    padding: 20px;
+    color: #333;
+    border-radius: 8px;
 }
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: #C683D7;
 }
 .works_on_smartphone {
   max-width: 100%;
