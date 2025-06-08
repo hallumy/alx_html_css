@@ -128,7 +128,7 @@ section:nth-of-type(2) img {
 section:nth-of-type(2) blockquote {
   color: #FFFFFF;
   margin-bottom: 10px;
-  flex: 1;
+  align-items: ;
 }
 
 section:nth-of-type(2) h3 {
@@ -186,19 +186,21 @@ section:nth-of-type(3) figure figcaption {
   font-size: 0.9rem;
 }
 
-section:nth-of-type(3) div i {
-  color: #ffcc00;
+section:nth-of-type(3) div {
+  color: #C271FF;
+  display: flex;
 }
 
 /* Membership section */
 section:nth-of-type(4) {
-  background-color: #f9f9f9;
+  background-color: #071629;
   text-align: center;
   padding: 60px 20px;
 }
 
 section:nth-of-type(4) h2 {
   margin-bottom: 30px;
+  color:#FFFFFF;
 }
 
 section:nth-of-type(4) div {
@@ -210,9 +212,10 @@ section:nth-of-type(4) div {
 
 section:nth-of-type(4) article {
   max-width: 220px;
-  background: #fff;
+  background: #071629;
   padding: 20px;
   border-radius: 8px;
+  color:#FFFFFF;
 }
 
 section:nth-of-type(4) article img {
@@ -225,7 +228,7 @@ section:nth-of-type(4) button {
   padding: 12px 30px;
   border: none;
   border-radius: 25px;
-  background-color: #ff5252;
+  background-color: #C271FF;
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
